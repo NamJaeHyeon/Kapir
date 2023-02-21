@@ -1,0 +1,15 @@
+.App{
+  margin: 0 auto;
+  text-align: center;
+}
+.in-app{
+  display: inline-block;
+  width: 1140px;
+  border: 1px solid gray;
+  background-color: var(--color-primary);
+}
+@media(max-width: 800px){
+  .in-app{
+    width: 100%;
+  }
+}
